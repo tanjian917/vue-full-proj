@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+dist
+.idea
+.DS_Store
+.env
+update/*
+!update/*.zip
+!update/README
+Server/*
+!Server/*.js
+!Server/qrcode
