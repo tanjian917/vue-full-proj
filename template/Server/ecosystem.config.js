@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'PPC-Server',
+    name: 'Node-Server',
     script: './index.js',
     env: {
         NODE_ENV: "production",

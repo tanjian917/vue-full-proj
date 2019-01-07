@@ -30,7 +30,7 @@ exports.installDependencies = function installDependencies(
   executable = 'npm',
   color
 ) {
-  console.log(`\n\n# ${color('Installing project dependencies ...')} in ${color(${cwd})}`)
+  console.log(`\n\n# ${color('Installing project dependencies ...')} in ${color(cwd)}`)
   console.log('# ========================\n')
   return runCommand(executable, ['install'], {
     cwd,
