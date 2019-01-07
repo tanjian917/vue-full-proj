@@ -193,7 +193,7 @@ module.exports = {
         let dirName = subFolders[proIndex];
 
         try{
-          const cwd = path.join(process.cwd(), (data.inPlace ? '' : data.destDirName) + '/' + dirName)
+          const cwd = path.join(process.cwd(), (data.inPlace ? '' : data.destDirName) + '/' + dirName);
           if (data.autoInstall) {
             installDependencies(cwd, data.autoInstall, green)
               .then(() => {
