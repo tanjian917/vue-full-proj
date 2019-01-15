@@ -8,14 +8,14 @@ module.exports = exports = {
         {
             target: FE_ADDRESS,
             pathRwrite: {
-                '/api': ''
+                '/api': '/api'
             }
         },{
             target: BE_ADDRESS,
             pathRwrite: {
-                '/adminApi': ''
+                '/adminApi': '/adminApi'
             }
         }
     ],
-    PORT: 80
+    PORT: 7777
 }
